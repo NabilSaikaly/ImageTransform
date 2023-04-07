@@ -5,7 +5,7 @@ Implementation of the functions:
 - `createSpotlight` To create a spotlight pattern on a given point in the picture.
 - `watermark` to insert a watermark to a specific picture.
 
-*A summary of the given and requirements are explained in this readme file*
+*The given and requirements by/from UIUC are summarized in this readme file*
 
 # HSLAPixel Class
 HSL Color space is used (Hue, Saturation and Luminance of the color).
