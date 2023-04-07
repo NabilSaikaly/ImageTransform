@@ -1,5 +1,6 @@
 # ImageTransform
-Solution to the UIUC Image Transform Problem/Programming Project. 
+Solution to the UIUC Image Transform Problem/Programming Project.
+
 *basics/requirements are explained in this readme file*
 
 # HSLAPixel Class
@@ -7,7 +8,9 @@ HSL Color space is used (Hue, Saturation and Luminance of the color).
 Source: Adobe Technical Guides poage on "The HSB/HLS Color Model"
 
 ## Hue
-Hue (denoted as h) defines the color itself, for example, red in distinction to blue or yellow. The values for the hue axis run from 0–360° beginning and ending with red and running through green, blue and all intermediary colors like greenish-blue, orange, purple, etc.
+Hue (denoted as h) defines the color itself, for example, red in distinction to blue or yellow.
+
+The values for the hue axis run from 0–360° beginning and ending with red and running through green, blue and all intermediary colors like greenish-blue, orange, purple, etc.
 There are two main hues that we'll use later in this assignment:
 - "Illini Orange" has a hue of 11.
 - "Illini Blue" has a hue of 216.
@@ -28,6 +31,7 @@ Luminance (denoted as l) indicates the level of illumination. The values run as 
 ## HSL Color Space
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/98900886/230672726-dc8709cb-13cc-4e5d-b132-004f43d743ab.png">
 The full HSL color space is a three-dimensional space, but it is not a cube (nor exactly cylindrical). The area truncates towards the two ends of the luminance axis and is widest in the middle range. The ellipsoid reveals several properties of the HSL color space:
+
 - At l=0 or l=1 (the top and bottom points of the ellipsoid), the 3D space is a single point (the color black and the color white). Hue and saturation values don’t change the color.
 - At s=0 (the vertical core of the ellipsoid), the 3D space is a line (the grayscale colors, defined only by the luminance). The values of the hue do not change the color.
 - At s=1 (the outer shell of the ellipsoid), colors are vivid and dramatic!
@@ -76,4 +80,4 @@ To run the code and test the implemented functions run the following commands:
 3. `./ImageTransform` to compile the ImageTransform.cpp file
 4. `make test` to compile the test files
 5. `./test` to run the tests
-
+- Note: `make clean` after cloning this repo and before implementing.
