@@ -1,5 +1,6 @@
 # ImageTransform
-Solution to the UIUC Image Transform Problem/Programming Project.
+Solution to the UIUC Image Transform Problem/Programming Project. 
+*basics/requirements are explained in this readme file*
 
 # HSLAPixel Class
 HSL Color space is used (Hue, Saturation and Luminance of the color).
