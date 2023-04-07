@@ -1,11 +1,16 @@
 # ImageTransform
 Solution to the UIUC Image Transform Problem/Programming Project.
+Implementation of the functions:
+- `illinify` to transform each Pixel to Illini Orange or Illini Blue after evaluating its proximity to these colors using Euclidean Distance and Trigonometric Logical Approach.
+- `createSpotlight` To create a spotlight pattern on a given point in the picture.
+- `watermark` to insert a watermark to a specific picture.
 
-*basics/requirements are explained in this readme file*
+*A summary of the given and requirements are explained in this readme file*
 
 # HSLAPixel Class
 HSL Color space is used (Hue, Saturation and Luminance of the color).
-Source: Adobe Technical Guides poage on "The HSB/HLS Color Model"
+
+Source: UIUC from Adobe Technical Guides page on "The HSB/HLS Color Model"
 
 ## Hue
 Hue (denoted as h) defines the color itself, for example, red in distinction to blue or yellow.
